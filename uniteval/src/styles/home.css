@@ -1,0 +1,37 @@
+.maindiv1{
+        text-align: center;
+}
+.form, .bookings{
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        width:40%;
+        margin-top: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding:2vw;
+        border:2px solid purple
+}
+.form>input, .bookings>input{
+        margin-bottom: 2vw;
+        height: 3.5vw;
+        font-size: 2vw;
+        border-radius: 5px;
+        border:.01px solid gainsboro
+}
+textarea:focus, input:focus{
+        outline: none;
+    }
+.form>button, .bookings>button{
+        height: 3.5vw;
+        font-size: 2vw;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: purple;
+        opacity: 90%;
+        border-radius: 8px;
+        color: white;
+        font-weight: 600;
+        border: none;
+}

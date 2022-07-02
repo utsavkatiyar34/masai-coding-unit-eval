@@ -1,0 +1,14 @@
+.footer>p{
+        font-family: Arial,sans-serif;
+        color:rgb(134, 134, 134);
+       margin-left: auto;
+       margin-right: auto;
+}
+.footer{
+        display: flex;
+        overflow: auto;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        margin-top: auto;
+}

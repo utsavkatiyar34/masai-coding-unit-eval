@@ -35,3 +35,10 @@ textarea:focus, input:focus{
         font-weight: 600;
         border: none;
 }
+.bookings>h3{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 2.5vw;
+        margin-top: 0;
+        color: rgb(172, 172, 172);
+}
